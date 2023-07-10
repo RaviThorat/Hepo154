@@ -1,20 +1,21 @@
 package in.bitlogic.demogit.app.model;
 
-//import javax.persistence.GeneratedValue;
-//import javax.persistence.GenerationType;
 
-//@Entity
-//@Data	
-//@AllArgsConstructor
-//@NoArgsConstructor
+
+@Entity
+@Data	
+@AllArgsConstructor
+@NoArgsConstructor
 public class GitDemo 
 {
-//@Id
-//@GeneratedValue(strategy = GenerationType.AUTO)
+@Id
+@GeneratedValue(strategy = GenerationType.AUTO)
 
-private int gitId;
-private String gitName;
-private String gitAddr;
-
+	private int loanAppId;
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	private String Email;
+	
 
 }
