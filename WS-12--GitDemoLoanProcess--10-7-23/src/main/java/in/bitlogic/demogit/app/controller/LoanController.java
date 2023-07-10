@@ -1,5 +1,9 @@
 package in.bitlogic.demogit.app.controller;
 
-public class LoanController {
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class LoanController 
+{
 
 }
