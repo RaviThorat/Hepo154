@@ -1,7 +1,18 @@
 package in.bitlogic.demogit.app.Service;
 
-public interface LoanService {
+import java.util.List;
 
-public 	String updatedata();
+
+import in.bitlogic.demogit.app.model.GitDemo;
+
+public interface LoanService{
+
+	public List<GitDemo> getLoans();
+
+	public void saveP(GitDemo p);
+
+	
+
+	public GitDemo updatedata(int gitId);
 
 }
