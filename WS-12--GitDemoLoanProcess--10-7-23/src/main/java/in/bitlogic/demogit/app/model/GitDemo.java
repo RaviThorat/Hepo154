@@ -15,6 +15,4 @@ public class GitDemo
 private int gitId;
 private String gitName;
 private String gitAddr;
-
-
 }
