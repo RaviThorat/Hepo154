@@ -11,7 +11,6 @@ public class LoanServiceImpl implements LoanService
 
 	@Override
 	public void saveP(GitDemo p) {
-		// TODO Auto-generated method stub
 		
 	}
 
