@@ -1,5 +1,7 @@
 package in.bitlogic.demogit.app.ServiceImpl;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import in.bitlogic.demogit.app.Service.LoanService;
@@ -10,8 +12,14 @@ public class LoanServiceImpl implements LoanService
 {
 
 	@Override
-	public void saveP(GitDemo p) {
+	public GitDemo saveP(GitDemo p) {
 		
+	}
+
+	@Override
+	public List<GitDemo> getLoans() {
+		
+		return null;
 	}
 
 }
