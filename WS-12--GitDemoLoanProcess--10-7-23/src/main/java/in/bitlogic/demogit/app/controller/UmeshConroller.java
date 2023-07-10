@@ -18,10 +18,10 @@ public class UmeshConroller {
 	LoanService loanservice;
 	
 	@DeleteMapping("/deleteloan/{gitId}")
-	public String deleteLoan(@PathVariable GitDemo gitId) {
+	public String deleteLoan(@PathVariable int gitId) {
 		
      loanservice.deleteLoan(gitId);
-     return "acasf";
+     return "delete successfully";
 	}
 
 }
