@@ -13,6 +13,6 @@ public interface LoanService{
 
 	public List<GitDemo> getLoans();
 
-	public GitDemo updatedata(int gitId);
+	public GitDemo updatedata(GitDemo g);
 
 }

@@ -29,9 +29,9 @@ public class LoanServiceImpl implements LoanService {
 	}
 
 	@Override
-	public GitDemo updatedata(int gitId) {
+	public GitDemo updatedata(GitDemo g) {
 
-		return lr.save(gitId);
+		return lr.save(g);
 	}
 
 	@Override

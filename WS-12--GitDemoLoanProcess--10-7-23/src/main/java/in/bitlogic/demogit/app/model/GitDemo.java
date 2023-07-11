@@ -17,15 +17,11 @@ public class GitDemo
 {
 @Id
 @GeneratedValue(strategy = GenerationType.AUTO)
-private int gitId;
-private String gitName;
-private String gitAddr;
-
 	private int loanAppId;
 	private String firstName;
 	private String middleName;
 	private String lastName;
-	private String Email;
+	private String email;
 	
 
 }
