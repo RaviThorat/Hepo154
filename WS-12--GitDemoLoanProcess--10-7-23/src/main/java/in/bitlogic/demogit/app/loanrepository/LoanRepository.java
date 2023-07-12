@@ -8,4 +8,6 @@ import in.bitlogic.demogit.app.model.GitDemo;
 @Repository
 public interface LoanRepository extends JpaRepository<GitDemo, Integer>{
 
+public 	GitDemo save(int gitId);
+
 }

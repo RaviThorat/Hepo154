@@ -19,9 +19,15 @@ public class LoanServiceImpl implements LoanService{
 	public LoanApplication saveLoanApplication(LoanApplication loanApp) {
 		
 		// Loan Sanction Details carry forwarded as loan details.
+<<<<<<< HEAD
 		loanApp.getSanctionDetails().setAmountSan(loanApp.getLoanDetails().getLoanAmount());
 		loanApp.getSanctionDetails().setLoanType(loanApp.getLoanDetails().getLoanType());
 		loanApp.getSanctionDetails().setTenureSan(loanApp.getLoanDetails().getTenure());
+=======
+//		loanApp.getSanctionDetails().setAmountSan(loanApp.getLoanDetails().getLoanAmount());
+//		loanApp.getSanctionDetails().setLoanType(loanApp.getLoanDetails().getLoanType());
+//		loanApp.getSanctionDetails().setTenureSan(loanApp.getLoanDetails().getTenure());
+>>>>>>> branch 'main' of https://github.com/RaviThorat/Hepo154.git
 		
 		
 		//EMI Calculation
